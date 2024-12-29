@@ -1,0 +1,17 @@
+Git Command
+
+1. git init
+    Initialized empty Git repository
+2. git add <File/Folder>
+    The git add command is used to stage changes in your working directory, preparing them to be committed to the Git repository. 
+    It moves changes from the working directory to the staging area, where they can later be included in a commit.
+3. git commit -m"Message"
+    used to save staged changes to the Git repository with a message describing what the commit does.
+     The -m option allows you to specify the commit message directly in the command
+     making the process faster than opening a text editor for the message.
+4. git status
+    used in Git to display the current state of the working directory and the staging area.
+    It provides details about which changes have been staged, which haven't, and which files are untracked.
+
+
+
