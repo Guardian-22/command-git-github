@@ -35,6 +35,10 @@ GitHub command
 
     3. List All Local and Remote Branches:     git branch -a
 
+5. git log
+    used to view the commit history of a Git repository.
+     It shows a list of all commits made to the repository, starting with the most recent.
+
 
 
 
