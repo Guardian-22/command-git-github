@@ -1,0 +1,40 @@
+GitHub command
+
+1.git remote add origin <url>
+   link your local repository to a GitHub remote repository.
+2.git push -u origin <branch-name>
+    git push -u origin master/ main 
+    ----------------------------------------------------------------------------------------------------------------
+    git push: Pushes your local commits to the remote repository.
+    -u or --set-upstream: Sets the specified remote branch as the "upstream" for the current local branch.
+     This allows future git push and git pull commands to be run without specifying the branch name.
+
+    origin: The default name for the remote repository. It refers to the repository URL you cloned or added.
+    <branch-name>: The name of the branch you want to push to the remote repository (e.g., main, feature-branch, etc.).
+    ------------------------------------------------------------------------------------------------------------------
+    * git push origin main/master
+
+
+3. git branch -M <new-branch-name>
+    git branch -M main :- to change master brach to main brach it override the name .
+
+    used to rename your current branch to main.
+    The -M flag ensures the renaming happens forcefully, even if a branch named main already exists.
+    This command is commonly used when transitioning from master to main as the default branch name.
+
+    Use Case
+    Many repositories now use main instead of master as the default branch
+     This command helps rename the branch to align with this convention.
+
+4. git branch
+     used to manage and view branches in your Git repository.
+    
+    1. Create a New Branch:     git branch <branch-name>
+
+    2. Switch to a Branch:      git checkout <branch-name>      or     git switch <branch-name>
+
+    3. List All Local and Remote Branches:     git branch -a
+
+
+
+
